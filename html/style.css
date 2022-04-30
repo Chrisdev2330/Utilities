@@ -1,0 +1,41 @@
+
+
+
+.circulo {  
+width: 75%;
+height: 75%;
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+background-color: darkgreen;
+
+}
+
+
+.lienzo{
+    background-color: #fff;
+    width: 215px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+   
+}
+
+#Progress_Status {
+    
+    width: 100%;
+    height: 8%;
+    background-color: #fff;
+    padding: 1px;
+  }
+    
+  #myprogressBar {
+    width: 50%;
+    height: 5px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 32px;
+    color: black;
+  }
